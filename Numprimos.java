@@ -27,7 +27,14 @@ public class Numprimos {
                     {
                         count = count + 1;
 
-                    
+                    }
+                }
+                    if (count < 3)
+                    {
+                        System.out.println( i + ",");
+                        
+                    }
+                    count = 0;
                 
               
             }
